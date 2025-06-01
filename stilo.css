@@ -1,0 +1,357 @@
+header{
+
+    background: #A3A656;
+    padding: 0;
+
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
+    height: 70px;
+}
+.opciones {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+.opciones li a {
+    text-decoration: none;
+    color: #222;
+    font: 540 16px 'Inter', sans-serif; text-transform: uppercase;
+
+}
+.usuario {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 150px;
+    text-decoration: none;
+}
+.icono-usuario{
+    width: 45px;
+    height: 45px;   
+}
+.icono-idioma{
+    width: 45%;
+    height: 45px;
+}
+.texto-cuenta {
+  font: 400 12px 'Inter', sans-serif; 
+  white-space: nowrap;  /* hace que el texto no se divida */
+}
+.texto-idioma {
+  font: 400 12px 'Inter', sans-serif; 
+  white-space: nowrap;  /* hace que el texto no se divida */
+}
+
+.spa{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+.spa-imagen{
+    width: 100%;
+    height: 100%;
+}
+.spa-contenido {
+    position: absolute;
+    top: 40px;
+    left: 170px;
+    color: #111;
+    z-index: 2;
+}
+.spa-titulo {
+     font-family: 'Romanesco', cursive; /* Romancesco es una fuente cursiva */
+    font-weight: 400; /* regular = 400 */
+    font-size: 96px;
+}
+.spa-subtitulo {
+    font: 600  32px 'Inter', sans-serif;
+    margin: 0;
+    color: #191919;
+    
+}
+.barra-reserva {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100px;
+    top: 600px;
+    background: #F2F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    z-index: 3;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+.reserva-label {
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+    justify-content: center;
+    font: 400 16px 'Inter', sans-serif; text-transform: uppercase;
+
+
+}
+.reserva-input {
+    width: 180px;
+    padding: 15px 12px;
+    border: 1px solid #d1d3c4;
+    border-radius: 10px;
+    font-size: 15px;
+    background: #fff;
+    justify-content: center;
+}
+.reserva-input-dos {
+    width: 180px;
+    padding: 15px 12px;
+    border: 1px solid #d1d3c4;
+    border-radius: 8px;
+    background: #fff;
+    justify-content: center;
+    font: 400 16px 'Inter', sans-serif; color: #9E9A9A;
+
+}
+.servicios {
+    display: grid;
+    grid-template-columns: repeat(3, 255px);
+    column-gap: 134px; 
+    padding: 20px;
+    justify-content: center; 
+    background-color: white;
+}
+.servicios-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    padding: 0 0 18px 0;
+    width: 260px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servicio-titulo {
+    background: #A3A656;
+    color: #fff;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+    padding: 14px 0 10px 0;
+    margin-bottom: 0;
+    font: 600  25px 'Inter', sans-serif;
+
+}
+.servicios-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 0 0 0;
+}
+.servicio-descripcion {
+    font-size: 14px;
+    color: #222;
+    margin: 16px 0 0 18px;
+    min-height: 32px;
+    text-align: left;
+    width: 90%;
+}
+.servicio-datos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-top: 18px;
+}
+.precio{
+    font-size: 22px;
+    font-weight: bold;
+    color: #191919;
+}
+.servicio-datos button {
+    background: #A3A656;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 28px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+
+
+
+
+.beneficios {
+    background: #f4f7f6;
+    padding: 48px 0 36px 0;
+    text-align: center;
+    height: 770px;
+    
+}
+
+.beneficios-titulo {
+    font: 700 25px 'Inter', sans-serif;
+    margin-bottom: 38px;
+    color: black;
+}
+
+.beneficios-contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 255px);
+    column-gap: 134px; 
+    padding: 20px;
+    justify-content: center; 
+    
+}
+
+.beneficio-card {
+    background: none;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: none;
+    padding: 0;
+   
+}
+
+.beneficio-circulo {
+    width: 233px;
+    height: 255px;
+    border-radius: 50%;
+    border: 10px solid #384001;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+    flex-shrink: 0; /*  No se reduce */
+    flex-grow: 0;   /*  No se estira */
+}
+
+.beneficio-circulo img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    
+
+}
+
+.beneficio-card h3 {
+    margin: 0 0 12px 0;
+    color: black;
+    font: 600  22px 'Inter', sans-serif;
+}
+
+.beneficio-card button {
+    background: #A3A656;
+    color: #fff;
+    border: none;
+    border-radius: 35px;
+    padding: 15px 50px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-bottom: 16px;
+}   
+
+
+
+
+.beneficio-card li {
+    margin-bottom: 4px;
+    text-align: left;     /* Alinea el texto dentro del <li> */
+    font:   15px 'Inter', sans-serif;
+
+
+}
+button:hover {
+  background-color: #384001;
+}
+footer {
+    background: #384001;
+    color: #fff;
+    padding: 0;
+    font-size: 14px;
+}
+
+.contenido-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 100px;
+    height: 97px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 100px;
+    margin-right: 40px;
+    
+    
+}
+
+.footer-links a {
+    color: #A3A656;
+    text-decoration: none;
+    font:   15px 'Inter', sans-serif;
+}
+
+.footer-social {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-social img {
+    width: 28px;
+    height: 28px;
+    filter: none;
+}
+
+.footer-social span {
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+.footer-social span {
+    color: #A3A656;
+    text-decoration: none;
+    font:   15px 'Inter', sans-serif;
+}   
+header a:hover,
+footer a:hover {
+  color: #FFFF00;
+}
+.texto-cuenta:hover {
+  color: #FFFF00;
+  cursor: pointer;
+}
+.texto-idioma:hover {
+  color: #FFFF00;
+  cursor: pointer;
+}
+.footer-social-titulo:hover {
+  color: #FFFF00;
+  cursor: pointer;
+}
+.icono-flecha:hover {
+  filter: brightness(0) saturate(100%) invert(87%) sepia(94%) saturate(515%) hue-rotate(1deg) brightness(101%) contrast(100%);
+  cursor: pointer;
+}
+.redes-sociales:hover {
+  filter: brightness(0) saturate(100%) invert(87%) sepia(94%) saturate(515%) hue-rotate(1deg) brightness(101%) contrast(100%);
+  cursor: pointer;
+}
