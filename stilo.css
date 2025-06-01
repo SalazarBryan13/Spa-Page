@@ -306,7 +306,7 @@ footer {
 .footer-links a {
     color: #A3A656;
     text-decoration: none;
-    font:   15px 'Inter', sans-serif;
+    font:   12px 'Inter', sans-serif;
 }
 
 .footer-social {
@@ -321,16 +321,14 @@ footer {
     filter: none;
 }
 
-.footer-social span {
-    font-size: 14px;
-    margin-right: 8px;
-}
 
-.footer-social span {
+.footer-social-titulo {
+    font:   12px 'Inter', sans-serif;
     color: #A3A656;
     text-decoration: none;
-    font:   15px 'Inter', sans-serif;
-}   
+}
+
+  
 header a:hover,
 footer a:hover {
   color: #FFFF00;
